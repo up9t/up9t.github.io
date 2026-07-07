@@ -1,22 +1,11 @@
-<script setup lang="ts">
-
-import * as THREE from "three"
-import { onMounted } from "vue";
-
-onMounted(() => {
-
-})
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-<main>
-  <div class="min-h-screen bg-[#0f172a]">
-    hi
-  </div>
-</main>
-
+  <h1>You did it!</h1>
+  <p>
+    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
+    documentation
+  </p>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
