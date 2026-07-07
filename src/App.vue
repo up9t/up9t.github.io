@@ -1,13 +1,11 @@
-<script setup lang="ts">
-import { ref } from 'vue'
-
-const counter = ref(0)
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <h1 ref="reesc">You did it!</h1>
-  <p>You clicked the button {{ counter }} times</p>
-  <button @click="() => counter++">Presss me!</button>
+  <h1>You did it!</h1>
+  <p>
+    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
+    documentation
+  </p>
 </template>
 
 <style scoped></style>
