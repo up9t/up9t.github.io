@@ -1,22 +1,13 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 
-import * as THREE from "three"
-import { onMounted } from "vue";
-
-onMounted(() => {
-
-})
-
+const counter = ref(0)
 </script>
 
 <template>
-<main>
-  <div class="min-h-screen bg-[#0f172a]">
-    hi
-  </div>
-</main>
-
+  <h1 ref="reesc">You did it!</h1>
+  <p>You clicked the button {{ counter }} times</p>
+  <button @click="() => counter++">Presss me!</button>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
